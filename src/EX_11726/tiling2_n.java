@@ -15,7 +15,6 @@ public class tiling2_n {
 	static int tiling(int n) {
 		int result1=0;
 		int result2=0;
-		int result3=0;
 		int result;
 		if(tile[n]!=-1)
 			return tile[n];
@@ -24,12 +23,11 @@ public class tiling2_n {
 		if(n-2>=0) {
 			result1 = tiling(n-1);
 			result2 = tiling(n-2);
-			result3 = tiling(n-2);
 		}
 		else {
 			result1 = tiling(n-1);
 		}
-		result = result1+result2+result3;
+		result = result1+result2;
 		tile[n] = result;
 		return result%10007;
 	}
