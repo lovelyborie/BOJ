@@ -9,14 +9,14 @@ public class Stairs {
 	public static void main (String[] args) {
 		Scanner scan = new Scanner(System.in);
 		goal = scan.nextInt();
-		points = new int [goal+1];
-		maxpoint = new int [goal+1];
+		points = new int [301];
+		maxpoint = new int [301];
 		Arrays.fill(maxpoint,-1);
 		for (int i = 0 ; i<goal ; i++) {
 			points[i+1]=scan.nextInt();
 		}
 		maxpoint[1] = points[1];
-		maxpoint[2] = points[2];
+		maxpoint[2] = points[1]+points[2];
 		maxpoint[3] = Math.max(points[1], points[2]) + points[3];
 		for (int i =4 ; i <= goal ; i++)
 			maxpoint[i] = Math.max(maxpoint[i-3]+points[i-1],maxpoint[i-2])+points[i];
