@@ -9,5 +9,6 @@
 	<classpathentry kind="src" path="BFS"/>
 	<classpathentry kind="src" path="DP"/>
 	<classpathentry kind="src" path="Data_Structure"/>
+	<classpathentry kind="src" path="Math"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
