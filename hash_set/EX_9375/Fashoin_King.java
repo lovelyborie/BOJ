@@ -17,8 +17,6 @@ public class Fashoin_King {
                 String name = sc.next(), type = sc.next();
                 map.put(type, map.getOrDefault(type, 0) + 1);
             }
-//복수를 다짐한다.이 치욕을 기억한다.
-//다음에는 내가 농락할것
             int ans = 1;
             for (int val : map.values())
                 ans *= val + 1;
