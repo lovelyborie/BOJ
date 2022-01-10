@@ -10,5 +10,16 @@
 	<classpathentry kind="src" path="DP"/>
 	<classpathentry kind="src" path="Data_Structure"/>
 	<classpathentry kind="src" path="Math"/>
+	<classpathentry kind="src" path="Implementation"/>
+	<classpathentry kind="src" path="hash_set"/>
+	<classpathentry kind="src" path="Bruteforcing"/>
+	<classpathentry kind="src" path="Floyd_Warshall"/>
+	<classpathentry kind="src" path="Knapsack"/>
+	<classpathentry kind="src" path="Greedy"/>
+	<classpathentry kind="src" path="Divide_And_Conquer"/>
+	<classpathentry kind="src" path="TSP"/>
+	<classpathentry kind="src" path="BackTracking"/>
+	<classpathentry kind="src" path="Recursion"/>
+	<classpathentry kind="src" path="Sorting"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
